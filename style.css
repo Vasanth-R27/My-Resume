@@ -1,0 +1,238 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	cursor:pointer ;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'poppins', sans-serif;
+}
+.container {
+	/* border:1px solid black; */
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(245, 239, 231);
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+	box-shadow: 5px 5px 5px grey;
+}
+.left {
+	position: initial;
+	background-color: rgba(216, 213, 213, 0.813);
+	padding: 20px;
+	width:260px;
+
+}
+.right {
+	position: initial;
+	background-color: white;
+	padding: 20px;
+	width:100%;
+
+}
+
+.Contact{
+	margin-bottom: 30px;
+}
+
+.Contact .Cnt{
+	/* border: 1px solid black; */
+	font-size: 20px;
+	padding-bottom:16px;
+	font-weight: bold;
+	
+}
+
+.Contact .details{
+	/* border: 1px solid black; */
+	font-size: 14px;
+	text-decoration: none;
+
+}
+
+.Contact .details a{
+    text-decoration: none;
+}
+
+.skills .t-skill{
+   border-top: 2px dotted black;
+   margin-bottom: 30px;
+   font-size: 20px;
+   padding-top:18px;
+   font-weight: bold;
+}
+
+ .lang{
+	border-bottom: 2px dotted black;
+	margin-top:10px;
+	font-size:14px;
+	padding-bottom:24px;
+
+}
+
+.lang ul li{
+	list-style-type: none;
+	
+}
+	
+.education{
+	/* border: 2px dotted black; */
+   margin-bottom: 30px;
+  
+
+}
+
+.edu{
+	/* border: 2px dotted black; */
+	font-size: 20px ;
+	font-weight: bold;
+	padding-bottom:24px;
+
+}
+
+.BE{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.G-1{
+	/* border:1px solid black; */
+	padding-top:10px;
+	padding-bottom:14px;
+    font-size:14px;
+}
+
+.G-1 ul li{
+	list-style-type: none;
+}
+
+.DE{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.G-2{
+	/* border:1px solid black; */
+	padding-top:10px;
+	padding-bottom:22px;
+    font-size:14px;
+}
+
+.G-2 ul li{
+	list-style-type: none;
+}
+
+.sslc{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.G-3{
+	/* border:1px solid black; */
+	padding-top:10px;
+	padding-bottom:22px;
+    font-size:14px;
+}
+
+.G-3 ul li{
+	list-style-type: none;
+}
+
+.name{
+	/* border: 1px solid black; */
+	font-size: 22px;
+	letter-spacing: 4px;
+	padding-left:54px;
+	padding-bottom:6px;
+	font-weight: bold;
+}
+
+.title{
+	font-size:13px;
+   letter-spacing: 2px;
+   border-bottom: 1px solid black;
+   padding-bottom: 22px;
+   padding-left:68px;
+ 
+
+}
+
+.career{
+	/* border: 1px solid black; */
+	font-size:18px;
+	font-weight:bold;
+}
+
+
+.para-1{
+	/* border: 1px solid black; */
+	font-size: 14px;	
+	padding-bottom:20px;
+}
+
+.Experience{
+	 border-top:1px solid black;
+	 padding-top:15px ;
+	font-size:18px;
+	 font-weight:bold;
+}
+
+.j-title{
+	/* border:1px solid black; */
+	font-size: 14px;
+	font-weight: bold;
+	padding-bottom: 6px;
+
+}
+
+.para-2 ul {
+	/* border:1px solid black; */
+	font-size:14px;
+	padding-bottom: 20px;
+
+}
+
+.project{
+	border-top:1px solid black;
+	padding-top:15px;
+	font-size:18px;
+	font-weight:bold;
+		
+}
+
+.para-3{
+	/* border:1px solid black; */
+	font-size:14px;
+	padding-bottom:20px ;
+
+}
+
+.p-details{
+	border-top:1px solid black;
+	font-size:18px;
+	font-weight:bold;
+	padding-top:15px;
+	padding-bottom:18px ;	
+}
+
+.para-4{
+	/* border:1px solid black; */
+	font-size:14px;
+	padding-bottom:14px ;
+}
+
+
+.image, .Contact, .Skills, .Language, .Hobbies, .title,
+.career, .Experience, .Education, .project {
+	margin-bottom: 30px;
+}
+.h2 {
+	background-color: rgb(4, 96, 150);
+}
